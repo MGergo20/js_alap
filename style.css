@@ -1,0 +1,21 @@
+import 
+#szamok div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  padding: 0;
+  text-align: center;
+  background: linear-gradient(to bottom, red 33%, white 33% 66%, green 66%); 
+}
+aside {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5px;
+  margin: 5px;
+  gap: 5px;
+}
